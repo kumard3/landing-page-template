@@ -6,27 +6,25 @@ export default function Hero() {
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
           <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
             <h1 className="text-5xl font-bold leading-none sm:text-6xl">
-              Ac mattis
-              <span className="">senectus</span>erat
-              pharetra
+              How to level up your business
             </h1>
             <p className="mt-6 mb-8 text-lg sm:mb-12">
-              Dictum aliquam porta in condimentum ac integer
-              <br className="hidden md:inline lg:hidden" />
-              turpis pulvinar, est scelerisque ligula sem
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est
+              faucibus tellus leo non pellentesque lorem vel. Arcu magna eros,
+              potenti duis.
             </p>
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
               <a
                 href="#"
                 className="px-8 py-3 text-lg font-semibold rounded text-white bg-[#7C76BB]"
               >
-                Suspendisse
+                Lorem
               </a>
               <a
                 href="#"
                 className="px-8 py-3 text-lg font-semibold border rounded dark:border-coolGray-100"
               >
-                Malesuada
+                Lorem
               </a>
             </div>
           </div>
