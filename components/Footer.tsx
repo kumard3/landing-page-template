@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <div className="overflow-hidden">
-      <div className="absolute z-[1] top-[317rem] w-[10rem] left-[10rem]">
+    <div className=" relative overflow-hidden">
+      <div className="absolute z-[1]  w-[10rem] left-[20rem] top-[2rem] ">
           <svg
             width="100%"
           

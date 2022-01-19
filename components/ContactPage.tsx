@@ -1,7 +1,7 @@
 export default function ContactPage() {
   return (
-    <div className="overflow-hidden" >
-      <div className=" hidden md:block absolute z-[-1] top-[258rem] w-[13rem] right-[18rem]">
+    <div className="relative overflow-hidden" >
+      <div className=" hidden md:block absolute z-[-1]  w-[13rem] right-[28rem]">
           <svg
             width="100%"
           
@@ -46,7 +46,7 @@ export default function ContactPage() {
           </svg>
       </div>
       
-      <div className=" hidden md:block  absolute z-[-1] top-[290rem] w-[18rem] left-[14rem]">
+      <div className=" hidden md:block  absolute z-[-1] top-[34rem] w-[18rem] left-[23rem]">
           <svg
             width="100%"
           
@@ -92,7 +92,7 @@ export default function ContactPage() {
       </div>
     <div className="container overflow-hidden flex items-center justify-center flex-col my-5 mx-auto">
       
-      <h1 className="text-5xl font-bold text-[#7C76BB] ">
+      <h1 className="text-5xl font-bold text-[#7C76BB] mt-[4rem] ">
         Start your business now !!!
       </h1>
       <div>
