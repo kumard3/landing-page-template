@@ -1,8 +1,55 @@
 /* eslint-disable @next/next/no-img-element */
+
 export default function Hero() {
   return (
-    <div>
-      <section className="dark:bg-coolGray-800 dark:text-coolGray-100">
+    <>
+      <section className="overflow-hidden">
+        <div className="absolute z-[-1] top-[13rem] left-[-8rem] ">
+        <svg width="323" height="323" viewBox="0 0 323 323" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_2_51)">
+<circle cx="161.5" cy="161.5" r="161.5" fill="#DCF0FF" fill-opacity="0.25"/>
+</g>
+<defs>
+<filter id="filter0_b_2_51" x="-12" y="-12" width="347" height="347" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="6"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_2_51"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_2_51" result="shape"/>
+</filter>
+</defs>
+</svg>
+        </div>
+        <div className="hidden md:block  absolute z-[-1] top-[25rem] left-[40rem] w-[10rem] ">
+        <svg width="100%"  viewBox="0 0 323 323" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_2_51)">
+<circle cx="161.5" cy="161.5" r="161.5" fill="#DCF0FF" fill-opacity="0.25"/>
+</g>
+<defs>
+<filter id="filter0_b_2_51" x="-12" y="-12" width="347" height="347" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="6"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_2_51"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_2_51" result="shape"/>
+</filter>
+</defs>
+</svg>
+        </div> 
+        
+      <div className="hidden lg:block  absolute z-[-1] top-[12rem] right-[10rem] w-[10rem] ">
+        <svg width="100%"  viewBox="0 0 323 323" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_2_51)">
+<circle cx="161.5" cy="161.5" r="161.5" fill="#DCF0FF" fill-opacity="0.25"/>
+</g>
+<defs>
+<filter id="filter0_b_2_51" x="-12" y="-12" width="347" height="347" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="6"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_2_51"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_2_51" result="shape"/>
+</filter>
+</defs>
+</svg>
+        </div>
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
           <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
             <h1 className="text-5xl font-bold leading-none sm:text-6xl">
@@ -37,6 +84,6 @@ export default function Hero() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }
