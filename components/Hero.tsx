@@ -22,7 +22,7 @@ export default function Hero() {
               </a>
               <a
                 href="#"
-                className="px-8 py-3 text-lg font-semibold border rounded dark:border-coolGray-100"
+                className="px-8 py-3 text-lg font-semibold border rounded border-[#7C76BB]"
               >
                 Lorem
               </a>
