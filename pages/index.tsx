@@ -4,6 +4,7 @@ import * as React from "react";
 import Card from "../components/Card";
 import ContactPage from "../components/ContactPage";
 import Features from "../components/Features";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import NavComponent from "../components/NavComponent";
 import Services from "../components/Services";
@@ -20,6 +21,7 @@ export default function Home() {
     <Services />
     <Testimonials />
     <ContactPage />
+    <Footer />
     </div>
   );
 }
