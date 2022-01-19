@@ -8,7 +8,7 @@ export default function ContactPage() {
         <img src="/Shopping 1.png" />
       </div>
       <button className="border-2 border-[#7C76BB] px-6 py-2 flex justify-evenly  items-center rounded-xl">
-        <h2 className="font-bold"> Let's Talk </h2>
+        <h2 className="font-bold"> Lets Talk </h2>
         <div className="pl-2">
           <svg
             width="27"
