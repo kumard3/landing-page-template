@@ -44,7 +44,8 @@ export default function NavComponent() {
               <Link href="#hero">home</Link>
             </li> */}
               <Link href="#home">
-                <h1>LOGO</h1>
+                <h1 className="h-10">UP BUSINESS</h1>
+                
               
               </Link>
             </div>
