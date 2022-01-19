@@ -29,7 +29,7 @@ export default function NavComponent() {
 
 
   return (
-    <div className="sticky top-0 z-10 backdrop-blur-sm  text-xl font-bold drop-shadow-xl flex-none transition-colors duration-500  ">
+    <div className=" text-xl font-bold flex-none transition-colors duration-500  ">
       <div className="w-full container mx-auto">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 ">
           <div className="flex justify-between items-center   py-6 sm:justify-between sm:space-x-10">
@@ -37,8 +37,6 @@ export default function NavComponent() {
               
               <Link href="#home">
                 <h1 className="h-10">UP BUSINESS</h1>
-                
-              
               </Link>
             </div>
             <div className="-mr-2 -my-2 sm:hidden">
@@ -46,9 +44,9 @@ export default function NavComponent() {
                 {isModalOpen ? (
                   <div
                     ref={ref}
-                    className="fixed w-[24rem] right-0 top-0   p-2 h-[100vh]  transition transform md:hidden"
+                    className="fixed w-[20rem] right-0 top-0 p-2 h-[100vh]  transition transform md:hidden"
                   >
-                    <div className="rounded-lg shadow-lg  ring-1 h-full  ring-opacity-5 bg-white border-[1px] border-red-100/20 text-black divide-y-2 divide-black/50">
+                    <div className="rounded-lg shadow-lg  h-full  ring-opacity-5 bg-white border-[1px] border-red-100/20 text-black divide-y-2 divide-black/50">
                       <div className="pt-5 pb-6 px-5">
                         <div className="-mr-2 float-right mb-3">
                           <button

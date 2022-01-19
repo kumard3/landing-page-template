@@ -1,7 +1,52 @@
 export default function ContactPage() {
   return (
     <div className="overflow-hidden" >
-      <div className="absolute z-[-1] top-[258rem] w-[13rem] right-[18rem]">
+      <div className=" hidden md:block absolute z-[-1] top-[258rem] w-[13rem] right-[18rem]">
+          <svg
+            width="100%"
+          
+            viewBox="0 0 323 323"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0_b_2_51)">
+              <circle
+                cx="161.5"
+                cy="161.5"
+                r="161.5"
+                fill="#DCF0FF"
+                fillOpacity="0.25"
+              />
+            </g>
+            <defs>
+              <filter
+                id="filter0_b_2_51"
+                x="-12"
+                y="-12"
+                width="347"
+                height="347"
+                filterUnits="userSpaceOnUse"
+                colorInterpolationFilters="sRGB"
+              >
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                <feGaussianBlur in="BackgroundImage" stdDeviation="6" />
+                <feComposite
+                  in2="SourceAlpha"
+                  operator="in"
+                  result="effect1_backgroundBlur_2_51"
+                />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_backgroundBlur_2_51"
+                  result="shape"
+                />
+              </filter>
+            </defs>
+          </svg>
+      </div>
+      
+      <div className=" hidden md:block  absolute z-[-1] top-[290rem] w-[18rem] left-[14rem]">
           <svg
             width="100%"
           

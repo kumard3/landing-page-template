@@ -2,14 +2,18 @@
 /* eslint-disable @next/next/no-img-element */
 export default function Features() {
   return (
-    <div className="overflow-hidden">
-       <div className=" hidden lg:block absolute z-[-1] top-[75rem] right-[0rem]  ">
-            <svg
+    <div className="relative overflow-hidden">
+       <div className="  overflow-hidden w-full h-full  ">
+        
+           <img src="/Ellipse 9.svg" className=" absolute top-[19rem] right-[-10rem] "/>
+
+            {/* <svg
               width="323"
               height="323"
               viewBox="0 0 323 323"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              className=" absolute top-[90rem] "
             >
               <g filter="url(#filter0_b_2_51)">
                 <circle
@@ -45,9 +49,8 @@ export default function Features() {
                   />
                 </filter>
               </defs>
-            </svg>
-          </div>
-          <div className="hidden lg:block absolute z-[-1] top-[57rem] left-[3rem] w-[15rem] ">
+            </svg> */}
+          <div className="hidden lg:block absolute z-[-1] top-0 left-[3rem] w-[15rem] ">
             <svg
               width="100%"
               viewBox="0 0 323 323"
@@ -90,6 +93,8 @@ export default function Features() {
               </defs>
             </svg>
           </div>
+          </div>
+         
       <section className="p-4 lg:p-8 ">
         <div className="container mx-auto space-y-12  ">
          
