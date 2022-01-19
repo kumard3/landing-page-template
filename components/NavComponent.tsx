@@ -36,7 +36,7 @@ export default function NavComponent() {
             <div className="flex justify-start lg:w-0 lg:flex-1">
               
               <Link href="#home">
-                <h1 className="h-10">UP BUSINESS</h1>
+                <h1 className="h-10 text-[#7C76BB] ">UP BUSINESS</h1>
               </Link>
             </div>
             <div className="-mr-2 -my-2 sm:hidden">
@@ -80,7 +80,7 @@ export default function NavComponent() {
                                 href={item.href}
                                 className="-m-3 p-3 flex items-center rounded-md  border-[1px] "
                               >
-                                <h1 className="my-3 ml-3 text-3xl font-bold ">
+                                <h1 className="my-3 ml-3 text-3xl font-bold text-[#7C76BB] ">
                                   {item.name}
                                 </h1>
                               </a>
@@ -119,7 +119,9 @@ export default function NavComponent() {
               {navData.map((n) => {
                 return (
                   <Link key={n.name} href={n.href}>
+                    <span className="text-[#7C76BB] ">
                     {n.name}
+                    </span>
                   </Link>
                 );
               })}
