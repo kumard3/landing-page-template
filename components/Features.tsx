@@ -2,10 +2,8 @@
 /* eslint-disable @next/next/no-img-element */
 export default function Features() {
   return (
-    <div className="my-3 overflow-hidden">
-      <section className="p-4 lg:p-8 ">
-        <div className="container mx-auto space-y-12">
-          <div className=" hidden lg:block absolute z-[-1] top-[75rem] right-[-8rem] ">
+    <div className="overflow-hidden">
+       <div className=" hidden lg:block absolute z-[-1] top-[75rem] right-[0rem]  ">
             <svg
               width="323"
               height="323"
@@ -92,6 +90,9 @@ export default function Features() {
               </defs>
             </svg>
           </div>
+      <section className="p-4 lg:p-8 ">
+        <div className="container mx-auto space-y-12  ">
+         
           <div className="flex flex-col overflow-hidden rounded-md  lg:flex-row">
             <div className="flex items-center justify-center flex-1 ">
               <img src="/e-Commerce 2.png" alt="" className="" />

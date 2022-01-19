@@ -17,7 +17,9 @@ export default function Home() {
       <NavComponent />
       <Hero />
       <Stats />
+      <div className="overflow-hidden">
       <Features />
+      </div>
     <Services />
     <Testimonials />
     <ContactPage />

@@ -1,7 +1,51 @@
 export default function Footer() {
   return (
-    <div className="">
-      <footer className="px-4   bg-[#F6FBFF]  ">
+    <div className="overflow-hidden">
+      <div className="absolute z-[1] top-[317rem] w-[10rem] left-[10rem]">
+          <svg
+            width="100%"
+          
+            viewBox="0 0 323 323"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0_b_2_51)">
+              <circle
+                cx="161.5"
+                cy="161.5"
+                r="161.5"
+                fill="#DCF0FF"
+                fillOpacity="0.25"
+              />
+            </g>
+            <defs>
+              <filter
+                id="filter0_b_2_51"
+                x="-12"
+                y="-12"
+                width="347"
+                height="347"
+                filterUnits="userSpaceOnUse"
+                colorInterpolationFilters="sRGB"
+              >
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                <feGaussianBlur in="BackgroundImage" stdDeviation="6" />
+                <feComposite
+                  in2="SourceAlpha"
+                  operator="in"
+                  result="effect1_backgroundBlur_2_51"
+                />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_backgroundBlur_2_51"
+                  result="shape"
+                />
+              </filter>
+            </defs>
+          </svg>
+        </div>
+      <footer className="px-4   bg-[#F6FBFF] py-6 ">
         <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
           <div className="lg:w-1/3">
             <a

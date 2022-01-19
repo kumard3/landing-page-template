@@ -48,6 +48,7 @@ export default function Hero() {
             </defs>
           </svg>
         </div>
+        
         <div className="hidden md:block  absolute z-[-1] top-[25rem] left-[40rem] w-[10rem] ">
           <svg
             width="100%"
