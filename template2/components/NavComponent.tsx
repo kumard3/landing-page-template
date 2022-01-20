@@ -23,29 +23,22 @@ const navData = [
 ];
 
 export default function NavComponent() {
-  // Create a ref that we add to the element for which we want to detect outside clicks
   const ref = useRef<HTMLDivElement>(null);
-  const buttonRef = useRef<HTMLDivElement>(null);
 
-  // State for our modal
   const [isModalOpen, setModalOpen] = useState(false);
-  // Call hook passing in the ref and a function to call on outside click
+
   useOnClickOutside(ref, () => setModalOpen(false));
 
 
   return (
-    // <Popover className= {`sticky top-0 z-40 w-full backdrop-blur flex-none transition-colors duration-500 lg:z-50 lg:border-b lg:border-gray-900/10 bg-white supports-backdrop-blur:bg-white/95 ${show && 'bg-inherit	'}`}>
     <div className="sticky top-0 z-10 backdrop-blur-sm  text-xl font-bold drop-shadow-xl flex-none transition-colors duration-500  ">
       <div className="w-full container mx-auto">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 ">
           <div className="flex justify-between items-center   py-6 sm:justify-between sm:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
-              {/* <li className={router.pathname == "#hero" ? "active" : "koko"}>
-              <Link href="#hero">home</Link>
-            </li> */}
+              
               <Link href="#home">
-                <h1>LOGO</h1>
-                {/* <span className="text-4xl font-bold">logo</span> */}
+                <h1 className="h-10 text-2xl">LOGO</h1>
               </Link>
             </div>
             <div className="-mr-2 -my-2 sm:hidden">
@@ -53,14 +46,14 @@ export default function NavComponent() {
                 {isModalOpen ? (
                   <div
                     ref={ref}
-                    className="fixed w-[24rem] right-0 top-0   p-2 h-[100vh]  transition transform md:hidden"
+                    className="fixed w-[20rem] right-0 top-0   p-2 h-[100vh]  transition transform md:hidden"
                   >
-                    <div className="rounded-lg shadow-lg  ring-1 h-full ring-black ring-opacity-5 bg-[#141628] border-[1px] border-red-100/20 text-white divide-y-2 divide-gray-50">
+                    <div className="rounded-lg shadow-lg   h-full  bg-[#141628] border-[1px]  border-white/20 text-white">
                       <div className="pt-5 pb-6 px-5">
                         <div className="-mr-2 float-right mb-3">
                           <button
                             onClick={() => setModalOpen(!true)}
-                            className="bg-white rounded-md p-2 inline-flex items-center justify-center  hover:text-gray-500 hover:bg-gray-100 "
+                            className=" rounded-md p-2 inline-flex items-center justify-center border-[1px]  border-white/20 "
                           >
                             <span className="sr-only">Close menu</span>
                             <svg
@@ -87,7 +80,7 @@ export default function NavComponent() {
                               <a
                                 key={item.name}
                                 href={item.href}
-                                className="-m-3 p-3 flex items-center rounded-md hover:bg-black  border-[1px] border-red-500/60"
+                                className="-m-3 p-3 flex items-center rounded-md hover:bg-black  border-[1px] border-white/20"
                               >
                                 <h1 className="my-3 ml-3 text-3xl font-bold ">
                                   {item.name}
