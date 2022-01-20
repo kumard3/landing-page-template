@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/no-unescaped-entities */
 export default function Hero() {
   return (
     <div className="container w-full mx-auto flex flex-wrap justify-between mt-[2rem]">

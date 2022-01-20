@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/no-unescaped-entities */
 
 export default function Pricing() {
   const cardStyle = `flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0 justify-center `;

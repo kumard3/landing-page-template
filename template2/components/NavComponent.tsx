@@ -1,3 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/no-unescaped-entities */
+
 import React, { useRef, useState } from "react";
 import useOnClickOutside from "./useOnClickOutside";
 
